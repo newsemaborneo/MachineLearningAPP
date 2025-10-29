@@ -3,6 +3,5 @@ pandas
 numpy
 matplotlib
 scikit-learn
-pickel
+
 seaborn
-io
