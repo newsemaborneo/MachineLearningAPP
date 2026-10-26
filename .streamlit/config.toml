@@ -1,0 +1,34 @@
+# Design token utama. Warna yang sama dipakai ulang di mlapp/ui.py (CSS) agar konsisten.
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F5F7FB"
+secondaryBackgroundColor = "#EEF1F7"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+linkColor = "#4F46E5"
+greenColor = "#0D9488"
+blueColor = "#4F46E5"
+orangeColor = "#D97706"
+redColor = "#DC2626"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap, sans-serif"
+headingFontWeights = [800, 700, 700]
+dataframeHeaderBackgroundColor = "#F8FAFC"
+chartCategoricalColors = ["#4F46E5", "#0D9488", "#F59E0B", "#E11D48", "#0EA5E9", "#8B5CF6", "#84CC16", "#64748B"]
+chartSequentialColors = ["#EEF2FF", "#E0E7FF", "#C7D2FE", "#A5B4FC", "#818CF8", "#6366F1", "#4F46E5", "#4338CA", "#3730A3", "#312E81"]
+chartDivergingColors = ["#B91C1C", "#EF4444", "#FCA5A5", "#FEE2E2", "#F8FAFC", "#E0E7FF", "#A5B4FC", "#6366F1", "#3730A3"]
+
+[theme.sidebar]
+backgroundColor = "#0F172A"
+secondaryBackgroundColor = "#1E293B"
+textColor = "#CBD5E1"
+borderColor = "#1E293B"
+primaryColor = "#A5B4FC"
+linkColor = "#A5B4FC"
+
+[server]
+maxUploadSize = 200

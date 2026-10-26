@@ -1,7 +1,12 @@
-streamlit
+streamlit>=1.50
 pandas
 numpy
-matplotlib
-scikit-learn
+scipy
+scikit-learn>=1.4
+plotly
+shap
+xgboost
+matplotlib  # gradien warna tabel (pandas Styler)
 
+# hanya dipakai oleh model.ipynb
 seaborn
